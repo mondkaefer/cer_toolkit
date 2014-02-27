@@ -1,8 +1,6 @@
 set RJM_DIR=..\..\..\..\..\rjm
 
-del *.wixobj
-del *.wixpdb
-del *.msi
+del *.wixobj *.wixpdb *.msi /q
 
 candle.exe CeRToolkit.wxs CeRToolkit_InstallDirDlg.wxs CeRToolkit_WixUI_InstallDir.wxs
 
