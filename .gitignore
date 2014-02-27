@@ -1,0 +1,8 @@
+# Wixtoolset 
+*.wixsobj
+*.wixpdb
+*.msi
+
+# Eclipse
+.project
+
