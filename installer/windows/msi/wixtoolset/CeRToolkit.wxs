@@ -61,7 +61,7 @@
             <File Id='puttygen_exe' DiskId='1' KeyPath='yes' Source='!(bindpath.rjm_deps_path)\puttygen.exe' />
           </Component>
           <Component Id='rjm_readme' Guid='$(var.README_GUID)'>
-            <File Id='rjm_readme_txt' DiskId='1' KeyPath='yes' Source='!(bindpath.rjm_doc_path)\rjm_readme.txt' />
+            <File Id='rjm_readme_txt' Name='rjm_readme.txt' DiskId='1' KeyPath='yes' Source='!(bindpath.rjm_doc_path)\readme.txt' />
           </Component>
           <Component Id='rjm_configure' Guid='$(var.RJM_CONFIGURE_GUID)'>
             <File Id='rjm_configure_exe' DiskId='1' KeyPath='yes' Source='!(bindpath.rjm_exe_path)\rjm_configure.exe' />
