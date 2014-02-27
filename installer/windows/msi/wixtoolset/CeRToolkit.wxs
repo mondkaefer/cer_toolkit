@@ -4,7 +4,7 @@
   <?define PRODUCT_VERSION="1.0.0" ?>
   <?define MANUFACTURER="Centre for eResearch" ?>
   <?define PRODUCT_NAME="$(var.MANUFACTURER) Toolkit" ?>
-  <?define PRODUCT_SHORTCUT="CeRToolkit" ?>
+  <?define PRODUCT_SHORTCUT="CeR Toolkit" ?>
   <?define UPGRADE_CODE="de9d8ee6-8449-4476-ab9e-5069c5f71720" ?>
   <?define README_GUID="4a2e445f-3f44-4403-9067-0bc23132db76" ?>
   <?define PAGEANT_GUID="f9706b71-180e-4d33-8b26-1cf13afd8f5a" ?>
