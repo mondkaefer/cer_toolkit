@@ -13,5 +13,5 @@ light.exe -ext WixUIExtension^
           -b rjm_deps_path=%RJM_DIR%\client\deps^
           -dWixUIBannerBmp=bitmaps\banner.bmp^
           -dWixUIDialogBmp=bitmaps\dialog.bmp^
-          -o CeRToolkit.msi^
+          -o CeR-Toolkit.msi^
           CeRToolkit_InstallDirDlg.wixobj CeRToolkit_WixUI_InstallDir.wixobj CeRToolkit.wixobj
