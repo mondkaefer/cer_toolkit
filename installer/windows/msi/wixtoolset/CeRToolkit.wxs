@@ -83,7 +83,7 @@
           </Component>
           <Component Id='cer_toolkit_shell' Guid='$(var.CER_TOOLKIT_SHELL_GUID)'>
             <File Id='cer_toolkit_shell_bat' DiskId='1' KeyPath='yes' Source='!(bindpath.bin_path)\cer_toolkit_shell.bat' />
-            <Shortcut Id='startmenuCeRToolkitShell' Directory='ProgramMenuDir' Icon="cer_toolkit_shell.bat" IconIndex="0" Name='CeR Toolkit Shell' Advertise='yes' />
+            <Shortcut Id='startmenuCeRToolkitShell' Directory='ProgramMenuDir' Icon="cer_toolkit_shell.ico" IconIndex="0" Name='CeR Toolkit Shell' Advertise='yes' />
           </Component>
         </Directory>
       </Directory>
@@ -118,7 +118,7 @@
     <Media Id='1' Cabinet='Sample.cab' EmbedCab='yes' DiskPrompt="CD-ROM #1" />
     <Property Id='DiskPrompt' Value="$(var.PRODUCT_NAME) [1]" />
 
-    <Icon Id="cer_toolkit_shell.bat" SourceFile="bitmaps\kiwi.ico" />
+    <Icon Id="cer_toolkit_shell.ico" SourceFile="bitmaps\kiwi.ico" />
     
   </Product>
 
