@@ -1,7 +1,7 @@
 CeR Toolkit Installer
 ===
 
-Various client tools offered by the Centre for eResearch at the University of Auckland, packed in an installer.
+Client tools offered by the Centre for eResearch at the University of Auckland, packed in an installer.
 
 Currently only an installer for Windows is provided, which includes
 
