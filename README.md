@@ -1,10 +1,9 @@
-CeR Toolkit
+CeR Toolkit Installer
 ===
 
-Various client tools offered by the Centre for eResearch at the University of Auckland. 
-The tools can be installed on Desktop machines of researchers who use the services of the Centre for eResearch.
+Various client tools offered by the Centre for eResearch at the University of Auckland, packed in an installer.
 
-This repository currently only provides means to create a Windows installer, which includes
+Currently only an installer for Windows is provided, which includes
 
 * Command-line scripts and their dependencies from the [rjm repository](https://github.com/mondkaefer/rjm)
 * A little script that opens a Windows commmand window which has all installed executables in the path
