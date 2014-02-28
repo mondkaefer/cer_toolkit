@@ -6,7 +6,7 @@ REM    Adjust the variable RJM_DIR if set up differently
 REM 
 REM This script must be run in the directory where it is located.
 
-set RJM_DIR=..\..\..\..\..\rjm
+set RJM_DIR=..\..\..\..\rjm
 
 del *.wixobj *.wixpdb *.msi /q
 
